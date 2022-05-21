@@ -1,0 +1,257 @@
+* {
+
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  text-decoration: none;
+
+  font-family: sans-serif;
+
+  font-size: 14px;
+
+}
+
+body {
+
+  width: 100%;
+
+  min-height: 100vh;
+
+  background-color: rgb(243,243,243);
+
+  display: flex;
+
+  justify-content: center; 
+
+}
+
+.conteiner {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: start;
+
+  width: 60%;
+
+  height: 100vh;
+
+}
+
+.imagem-celular {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 50%;
+
+}
+
+.imagem-celular img {
+
+  height: 50rem;
+
+}
+
+.grupo-de-operacoes {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-around;
+
+  flex-direction: column;
+
+  width: 50%;
+
+  min-height: 34rem;
+
+}
+
+.caixa {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  flex-direction: column;
+
+  background-color: #fff;
+
+  width: 100%;
+
+  padding: 1.3rem 0;
+
+  border: 1px solid #d3d3d3;
+
+}
+
+.caixa:nth-child(1) {
+
+  min-height: 19rem;
+
+}
+
+.logo {
+
+  height: 3rem;
+
+}
+
+.foto-do-perfil {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+
+}
+
+.foto-do-perfil img {
+
+  height: 6rem;
+
+}
+
+.continuar-usuario {
+
+  background-color: #0095f6;
+
+  color: #fff;
+
+  padding: 8px;
+
+  border-radius: 4px;
+
+}
+
+.remover-conta {
+
+  color: #0095f6;
+
+  margin-top: 1rem;
+
+}
+
+.pergunta {
+
+  color: rgb(160, 160, 160);
+
+}
+
+.link-operacao {
+
+  color: #0095f6;
+
+}
+
+.baixar-instagram {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 100%;
+
+  padding: 1.3rem 0;
+
+}
+
+.origens {
+
+  display: flex;
+
+  width: 100%;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  padding: 1rem;
+
+}
+
+.link-download {
+
+  height: 3rem;
+
+  width: 10rem;
+
+  background-size: cover;
+
+}
+
+.link-download:nth-child(1) {
+
+  background-image: url('./img/botao-apple.png');
+
+}
+
+.link-download:nth-child(2) {
+
+  background-image: url('./img/botao-google-play.png');
+
+}
+
+@media(max-width: 1024px) {
+
+  .conteiner {
+
+    width: 90%;
+
+  }
+
+}
+
+@media (max-width: 650px) {
+
+  .body {
+
+    background-color: #fff;
+
+  }
+
+  .conteiner {
+
+    width: 90%;
+
+  }
+
+  .imagem-celular {
+
+    display: none;
+
+  }
+
+  .grupo-de-operacoes {
+
+    width: 100%;
+
+  }
+
+  .grupo-de-operacoes {
+
+    border: 1px solid transparent;
+    
+  }
+
+}
